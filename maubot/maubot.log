@@ -1,0 +1,468 @@
+[2022-03-29 21:10:13,822] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:10:13,823] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:10:13,830] [INFO@mau.init] Initialization complete in 0.06 seconds
+[2022-03-29 21:10:13,830] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:10:13,830] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:10:13,831] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:10:13,947] [DEBUG@mau.db.upgrade] Upgrading database from v0 to v1: Initial asyncpg revision
+[2022-03-29 21:10:14,027] [DEBUG@mau.client.db.upgrade] Upgrading matrix state cache from v0 to v2: Latest revision
+[2022-03-29 21:10:14,068] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:10:14,069] [INFO@mau.init] Startup actions complete in 0.24 seconds, now running forever
+[2022-03-29 21:10:25,355] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 21:10:25,356] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 21:10:25,356] [DEBUG@mau.init] Stopping server
+[2022-03-29 21:10:25,357] [INFO@mau.init] Everything stopped, shutting down
+[2022-03-29 21:11:13,729] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:11:13,730] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:11:13,736] [INFO@mau.init] Initialization complete in 0.05 seconds
+[2022-03-29 21:11:13,736] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:11:13,737] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:11:13,737] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:11:13,775] [DEBUG@mau.db.upgrade] Database at v1, not upgrading
+[2022-03-29 21:11:13,776] [DEBUG@mau.client.db.upgrade] Database at v2, not upgrading
+[2022-03-29 21:11:13,777] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:11:13,778] [INFO@mau.init] Startup actions complete in 0.04 seconds, now running forever
+[2022-03-29 21:11:24,309] [INFO@aiohttp.access] 127.0.0.1 "GET / 404 196 in 0.0005s"
+[2022-03-29 21:11:24,702] [INFO@aiohttp.access] 127.0.0.1 "GET /favicon.ico 404 196 in 0.0004s"
+[2022-03-29 21:11:29,808] [INFO@aiohttp.access] 127.0.0.1 "GET / 404 172 in 0.0005s"
+[2022-03-29 21:12:25,365] [INFO@aiohttp.access] 127.0.0.1 "GET / 404 172 in 0.0006s"
+[2022-03-29 21:12:33,051] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1 401 240 in 0.0006s"
+[2022-03-29 21:12:46,355] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot 302 192 in 0.0005s"
+[2022-03-29 21:12:46,434] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 858 in 0.0005s"
+[2022-03-29 21:12:46,604] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/js/main.84245b50.js 200 252 in 0.0026s"
+[2022-03-29 21:12:46,711] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/css/main.53c29762.css 200 236 in 0.0014s"
+[2022-03-29 21:12:47,212] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-regular.87382137e49225456407.woff2 200 238 in 0.0017s"
+[2022-03-29 21:12:47,213] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 176 in 0.0003s"
+[2022-03-29 21:12:47,412] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/features 200 172 in 0.0005s"
+[2022-03-29 21:12:47,413] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0004s"
+[2022-03-29 21:12:47,510] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0004s"
+[2022-03-29 21:12:47,713] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-bold.7ce9eb3fe454f54745a4.woff2 200 238 in 0.0014s"
+[2022-03-29 21:12:47,714] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0003s"
+[2022-03-29 21:12:51,110] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/ 404 172 in 0.0006s"
+[2022-03-29 21:12:52,194] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0005s"
+[2022-03-29 21:13:09,435] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 401 235 in 0.0005s"
+[2022-03-29 21:13:12,843] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 401 235 in 0.0005s"
+[2022-03-29 21:23:04,283] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 21:23:04,283] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 21:23:04,284] [DEBUG@mau.init] Stopping server
+[2022-03-29 21:23:04,284] [INFO@mau.init] Everything stopped, shutting down
+[2022-03-29 21:23:06,857] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:23:06,858] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:23:06,867] [INFO@mau.init] Initialization complete in 0.33 seconds
+[2022-03-29 21:23:06,867] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:23:06,867] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:23:06,867] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:23:06,903] [DEBUG@mau.db.upgrade] Database at v1, not upgrading
+[2022-03-29 21:23:06,904] [DEBUG@mau.client.db.upgrade] Database at v2, not upgrading
+[2022-03-29 21:23:06,906] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:23:06,906] [INFO@mau.init] Startup actions complete in 0.04 seconds, now running forever
+[2022-03-29 21:23:52,132] [INFO@aiohttp.access] 127.0.0.1 "GET / 404 196 in 0.0006s"
+[2022-03-29 21:23:58,328] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 882 in 0.0005s"
+[2022-03-29 21:23:58,635] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/js/main.84245b50.js 200 276 in 0.0041s"
+[2022-03-29 21:23:58,636] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/css/main.53c29762.css 200 260 in 0.0027s"
+[2022-03-29 21:23:59,457] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-regular.87382137e49225456407.woff2 304 201 in 0.0008s"
+[2022-03-29 21:23:59,745] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 200 in 0.0004s"
+[2022-03-29 21:23:59,850] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13713 in 0.0004s"
+[2022-03-29 21:23:59,946] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13713 in 0.0004s"
+[2022-03-29 21:24:00,049] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/features 200 196 in 0.0005s"
+[2022-03-29 21:24:00,251] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-bold.7ce9eb3fe454f54745a4.woff2 304 201 in 0.0008s"
+[2022-03-29 21:24:06,782] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 401 235 in 0.0005s"
+[2022-03-29 21:24:09,559] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 401 235 in 0.0005s"
+[2022-03-29 21:24:16,715] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 401 235 in 0.0005s"
+[2022-03-29 21:24:22,867] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 21:24:22,868] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 21:24:22,868] [DEBUG@mau.init] Stopping server
+[2022-03-29 21:24:22,869] [INFO@mau.init] Everything stopped, shutting down
+[2022-03-29 21:24:33,393] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:24:33,394] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:24:33,403] [INFO@mau.init] Initialization complete in 0.35 seconds
+[2022-03-29 21:24:33,404] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:24:33,404] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:24:33,404] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:24:33,457] [DEBUG@mau.db.upgrade] Database at v1, not upgrading
+[2022-03-29 21:24:33,459] [DEBUG@mau.client.db.upgrade] Database at v2, not upgrading
+[2022-03-29 21:24:33,461] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:24:33,462] [INFO@mau.init] Startup actions complete in 0.06 seconds, now running forever
+[2022-03-29 21:24:44,608] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 882 in 0.0006s"
+[2022-03-29 21:24:45,111] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 200 in 0.0004s"
+[2022-03-29 21:24:45,312] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13713 in 0.0004s"
+[2022-03-29 21:24:45,312] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/features 200 196 in 0.0004s"
+[2022-03-29 21:24:45,411] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13713 in 0.0004s"
+[2022-03-29 21:24:55,514] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 401 259 in 0.0005s"
+[2022-03-29 21:25:00,789] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 200 283 in 0.2766s"
+[2022-03-29 21:25:00,870] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 387 in 0.0005s"
+[2022-03-29 21:25:01,084] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 158 in 0.0006s"
+[2022-03-29 21:25:01,113] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 158 in 0.0006s"
+[2022-03-29 21:25:01,114] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 158 in 0.0006s"
+[2022-03-29 21:25:01,115] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0004s"
+[2022-03-29 21:25:01,118] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 175 in 0.0033s"
+[2022-03-29 21:25:01,119] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 207 in 0.0004s"
+[2022-03-29 21:25:01,513] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 21:25:01,576] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 21:25:04,821] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-light.35799bdef0942e5364a7.woff2 200 238 in 0.0022s"
+[2022-03-29 21:27:17,728] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:27:17,729] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.0131s"
+[2022-03-29 21:27:17,911] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-bold.4be56996e127ca0cc550.woff2 200 240 in 0.0015s"
+[2022-03-29 21:27:23,464] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-regular.fb1bb49c43d015b78056.woff2 200 240 in 0.0015s"
+[2022-03-29 21:28:48,008] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/client/@giphy:matrix.org 400 237 in 0.1502s"
+[2022-03-29 21:28:58,095] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/client/@giphy57:matrix.org 400 237 in 0.129s"
+[2022-03-29 21:29:28,962] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 21:29:29,020] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 21:31:56,624] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 858 in 0.0004s"
+[2022-03-29 21:31:56,711] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 21:31:56,711] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 147.7499s"
+[2022-03-29 21:31:56,796] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/js/main.84245b50.js 200 252 in 0.0017s"
+[2022-03-29 21:31:56,840] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/css/main.53c29762.css 200 236 in 0.0014s"
+[2022-03-29 21:31:57,007] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-regular.87382137e49225456407.woff2 304 177 in 0.0008s"
+[2022-03-29 21:31:57,250] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 176 in 0.0004s"
+[2022-03-29 21:31:57,351] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0004s"
+[2022-03-29 21:31:57,378] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 387 in 0.0006s"
+[2022-03-29 21:31:57,525] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0004s"
+[2022-03-29 21:31:57,603] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 158 in 0.0005s"
+[2022-03-29 21:31:57,612] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 158 in 0.0005s"
+[2022-03-29 21:31:57,619] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 301 in 0.0004s"
+[2022-03-29 21:31:57,634] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 207 in 0.0004s"
+[2022-03-29 21:31:57,640] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 175 in 0.0004s"
+[2022-03-29 21:31:57,644] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0003s"
+[2022-03-29 21:31:57,664] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-bold.7ce9eb3fe454f54745a4.woff2 304 177 in 0.0007s"
+[2022-03-29 21:31:57,668] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-light.35799bdef0942e5364a7.woff2 304 177 in 0.0006s"
+[2022-03-29 21:31:58,121] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 21:31:58,184] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 21:32:08,680] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 21:32:08,681] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 21:32:08,681] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 21:32:08,682] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 10.5612s"
+[2022-03-29 21:32:08,682] [DEBUG@mau.init] Stopping server
+[2022-03-29 21:32:08,683] [INFO@mau.init] Everything stopped, shutting down
+[2022-03-29 21:33:56,904] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:33:56,905] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:33:56,911] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:33:56,918] [INFO@mau.init] Initialization complete in 0.07 seconds
+[2022-03-29 21:33:56,918] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:33:56,919] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:33:56,919] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:33:56,954] [DEBUG@mau.db.upgrade] Database at v1, not upgrading
+[2022-03-29 21:33:56,955] [DEBUG@mau.client.db.upgrade] Database at v2, not upgrading
+[2022-03-29 21:33:56,956] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:33:56,957] [INFO@mau.init] Startup actions complete in 0.04 seconds, now running forever
+[2022-03-29 21:34:25,278] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/login 200 283 in 0.282s"
+[2022-03-29 21:35:17,259] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/client/auth/matrix.org/register 404 280 in 0.0009s"
+[2022-03-29 21:41:02,001] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/client/auth/matrix.org/register 404 280 in 0.0007s"
+[2022-03-29 21:47:53,084] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/client/auth/matrix.org/login 200 463 in 0.5824s"
+[2022-03-29 21:49:50,150] [INFO@aiohttp.access] 127.0.0.1 "GET / 404 196 in 0.0006s"
+[2022-03-29 21:49:55,332] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot 302 216 in 0.0005s"
+[2022-03-29 21:49:55,426] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 882 in 0.0004s"
+[2022-03-29 21:49:55,637] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/js/main.84245b50.js 200 276 in 0.0017s"
+[2022-03-29 21:49:55,641] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/css/main.53c29762.css 200 260 in 0.0012s"
+[2022-03-29 21:49:55,933] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-regular.87382137e49225456407.woff2 304 201 in 0.0008s"
+[2022-03-29 21:49:56,134] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 200 in 0.0004s"
+[2022-03-29 21:49:56,851] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 411 in 0.0006s"
+[2022-03-29 21:49:56,852] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13713 in 0.0004s"
+[2022-03-29 21:49:56,853] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13713 in 0.0008s"
+[2022-03-29 21:49:57,482] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 182 in 0.0007s"
+[2022-03-29 21:49:57,483] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 231 in 0.0006s"
+[2022-03-29 21:49:57,484] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 199 in 0.0012s"
+[2022-03-29 21:49:57,485] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13713 in 0.0017s"
+[2022-03-29 21:49:57,491] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 325 in 0.0005s"
+[2022-03-29 21:49:57,493] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 182 in 0.0006s"
+[2022-03-29 21:49:57,857] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 400 515 in 0.0005s"
+[2022-03-29 21:50:03,568] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 400 515 in 0.0005s"
+[2022-03-29 21:50:14,488] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 21:50:14,552] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 21:50:14,726] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/client/auth/matrix.org/login 200 463 in 0.8355s"
+[2022-03-29 21:50:19,599] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-bold.7ce9eb3fe454f54745a4.woff2 304 177 in 0.0008s"
+[2022-03-29 21:50:21,775] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-light.35799bdef0942e5364a7.woff2 304 177 in 0.0008s"
+[2022-03-29 21:51:02,590] [WARNING@maubot.client.@giphy_bot:matrix.org] Client has device ID, but encryption dependencies not installed
+Traceback (most recent call last):
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/maubot/client.py", line 51, in <module>
+    from mautrix.crypto import OlmMachine, PgCryptoStore
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/crypto/__init__.py", line 1, in <module>
+    from .account import OlmAccount
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/crypto/account.py", line 9, in <module>
+    import olm
+ModuleNotFoundError: No module named 'olm'
+[2022-03-29 21:51:04,594] [DEBUG@maubot.client.@giphy_bot:matrix.org] Starting syncing
+[2022-03-29 21:51:04,703] [INFO@maubot.client.@giphy_bot:matrix.org] Client started, starting plugin instances...
+[2022-03-29 21:51:04,703] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/client/@giphy_bot:matrix.org 201 585 in 2.2746s"
+[2022-03-29 21:51:05,133] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-bold.4be56996e127ca0cc550.woff2 304 178 in 0.0008s"
+[2022-03-29 21:51:09,773] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/client/@giphy_bot:matrix.org 200 580 in 0.001s"
+[2022-03-29 21:51:22,665] [DEBUG@maubot.instance.giphy_bot] Plugin instance dependencies loaded
+[2022-03-29 21:51:22,672] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:51:22,677] [INFO@maubot.instance.giphy_bot] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 21:51:22,677] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy_bot 201 1998 in 0.0471s"
+[2022-03-29 21:51:23,020] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-regular.fb1bb49c43d015b78056.woff2 304 178 in 0.0009s"
+[2022-03-29 21:51:26,536] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy_bot 200 1993 in 0.0006s"
+[2022-03-29 21:51:43,863] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 21:51:43,863] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 21:51:43,864] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 21:51:43,864] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 89.3763s"
+[2022-03-29 21:51:43,864] [DEBUG@maubot.instance.giphy_bot] Stopping plugin instance...
+[2022-03-29 21:51:43,865] [DEBUG@maubot.client.@giphy_bot:matrix.org] Syncing cancelled
+[2022-03-29 21:51:43,865] [DEBUG@mau.init] Stopping server
+[2022-03-29 21:51:43,866] [INFO@mau.init] Everything stopped, shutting down
+[2022-03-29 21:52:12,887] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:52:12,888] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:52:12,893] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:52:12,900] [INFO@mau.init] Initialization complete in 0.06 seconds
+[2022-03-29 21:52:12,900] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:52:12,901] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:52:12,901] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:52:12,935] [DEBUG@mau.db.upgrade] Database at v1, not upgrading
+[2022-03-29 21:52:12,935] [DEBUG@mau.client.db.upgrade] Database at v2, not upgrading
+[2022-03-29 21:52:12,937] [WARNING@maubot.client.@giphy_bot:matrix.org] Client has device ID, but encryption dependencies not installed
+Traceback (most recent call last):
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/maubot/client.py", line 51, in <module>
+    from mautrix.crypto import OlmMachine, PgCryptoStore
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/crypto/__init__.py", line 1, in <module>
+    from .account import OlmAccount
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/crypto/account.py", line 9, in <module>
+    import olm
+ModuleNotFoundError: No module named 'olm'
+[2022-03-29 21:52:12,938] [DEBUG@maubot.instance.giphy_bot] Plugin instance dependencies loaded
+[2022-03-29 21:52:13,849] [DEBUG@maubot.client.@giphy_bot:matrix.org] Starting syncing
+[2022-03-29 21:52:13,954] [INFO@maubot.client.@giphy_bot:matrix.org] Client started, starting plugin instances...
+[2022-03-29 21:52:13,961] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:52:13,966] [INFO@maubot.instance.giphy_bot] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 21:52:13,967] [DEBUG@maubot.instance.giphy_bot] Plugin instance dependencies loaded
+[2022-03-29 21:52:13,968] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:52:13,968] [INFO@mau.init] Startup actions complete in 1.07 seconds, now running forever
+[2022-03-29 21:52:16,384] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 21:52:16,385] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 21:52:16,385] [DEBUG@maubot.instance.giphy_bot] Stopping plugin instance...
+[2022-03-29 21:52:16,385] [DEBUG@maubot.client.@giphy_bot:matrix.org] Syncing cancelled
+[2022-03-29 21:52:16,386] [DEBUG@mau.init] Stopping server
+[2022-03-29 21:52:16,386] [INFO@mau.init] Everything stopped, shutting down
+[2022-03-29 21:54:07,956] [INFO@mau.init] Initializing maubot 0.3.1
+[2022-03-29 21:54:07,957] [DEBUG@maubot.loader.zip] Preloading plugins...
+[2022-03-29 21:54:07,962] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:54:07,969] [INFO@mau.init] Initialization complete in 0.06 seconds
+[2022-03-29 21:54:07,969] [DEBUG@mau.init] Running startup actions...
+[2022-03-29 21:54:07,969] [DEBUG@mau.init] Starting database...
+[2022-03-29 21:54:07,970] [DEBUG@mau.db] Connecting to sqlite:/maubot.db
+[2022-03-29 21:54:08,005] [DEBUG@mau.db.upgrade] Database at v1, not upgrading
+[2022-03-29 21:54:08,006] [DEBUG@mau.client.db.upgrade] Database at v2, not upgrading
+[2022-03-29 21:54:08,007] [WARNING@maubot.client.@giphy_bot:matrix.org] Client has device ID, but encryption dependencies not installed
+Traceback (most recent call last):
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/maubot/client.py", line 51, in <module>
+    from mautrix.crypto import OlmMachine, PgCryptoStore
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/crypto/__init__.py", line 1, in <module>
+    from .account import OlmAccount
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/crypto/account.py", line 9, in <module>
+    import olm
+ModuleNotFoundError: No module named 'olm'
+[2022-03-29 21:54:08,008] [DEBUG@maubot.instance.giphy_bot] Plugin instance dependencies loaded
+[2022-03-29 21:54:08,667] [DEBUG@maubot.client.@giphy_bot:matrix.org] Starting syncing
+[2022-03-29 21:54:08,772] [INFO@maubot.client.@giphy_bot:matrix.org] Client started, starting plugin instances...
+[2022-03-29 21:54:08,780] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 21:54:08,784] [INFO@maubot.instance.giphy_bot] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 21:54:08,785] [DEBUG@maubot.instance.giphy_bot] Plugin instance dependencies loaded
+[2022-03-29 21:54:08,786] [INFO@maubot.server] Listening on http://127.0.0.1:29316
+[2022-03-29 21:54:08,786] [INFO@mau.init] Startup actions complete in 0.82 seconds, now running forever
+[2022-03-29 21:56:14,500] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 21:56:14,563] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 21:56:19,294] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy_bot 200 1993 in 0.0007s"
+[2022-03-29 22:00:16,594] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:00:16,657] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:00:18,497] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 412 256 in 0.0006s"
+[2022-03-29 22:00:24,300] [DEBUG@maubot.instance.giphy_bot] Stopping plugin instance...
+[2022-03-29 22:00:24,335] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/instance/giphy_bot 204 98 in 0.0355s"
+[2022-03-29 22:00:27,254] [DEBUG@maubot.loader.zip] Unloaded plugin casavant.tom.giphy at /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:00:27,254] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 204 98 in 0.0015s"
+[2022-03-29 22:00:31,416] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:00:31,417] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.0094s"
+[2022-03-29 22:00:41,954] [DEBUG@maubot.instance.giphy] Plugin instance dependencies loaded
+[2022-03-29 22:00:41,960] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:00:41,965] [INFO@maubot.instance.giphy] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 22:00:41,965] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/Giphy 201 1992 in 0.0486s"
+[2022-03-29 22:00:48,428] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy 200 1987 in 0.0006s"
+[2022-03-29 22:01:51,593] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 22:01:51,593] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 94.9996s"
+[2022-03-29 22:02:13,181] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/js/main.84245b50.js 200 252 in 0.0035s"
+[2022-03-29 22:02:13,182] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/css/main.53c29762.css 200 236 in 0.0032s"
+[2022-03-29 22:02:13,993] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 176 in 0.0005s"
+[2022-03-29 22:02:14,512] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 387 in 0.0006s"
+[2022-03-29 22:02:14,624] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 1989 in 0.0006s"
+[2022-03-29 22:02:14,630] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0003s"
+[2022-03-29 22:02:14,635] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 2411 in 0.0004s"
+[2022-03-29 22:02:14,645] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 2130 in 0.0004s"
+[2022-03-29 22:02:14,666] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 207 in 0.0004s"
+[2022-03-29 22:02:14,829] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 175 in 0.0006s"
+[2022-03-29 22:02:14,840] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0004s"
+[2022-03-29 22:02:15,366] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-bold.4be56996e127ca0cc550.woff2 304 178 in 0.002s"
+[2022-03-29 22:02:15,367] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-regular.87382137e49225456407.woff2 304 177 in 0.002s"
+[2022-03-29 22:02:15,382] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-bold.7ce9eb3fe454f54745a4.woff2 304 177 in 0.0006s"
+[2022-03-29 22:02:15,513] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-light.35799bdef0942e5364a7.woff2 304 177 in 0.0009s"
+[2022-03-29 22:02:15,541] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-regular.fb1bb49c43d015b78056.woff2 304 178 in 0.0008s"
+[2022-03-29 22:02:15,584] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:02:15,653] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:03:03,205] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/proxy/@giphy_bot:matrix.org/_matrix/media/r0/upload 200 745 in 0.6219s"
+[2022-03-29 22:03:21,630] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/proxy/@giphy_bot:matrix.org/_matrix/media/r0/upload 200 745 in 0.6315s"
+[2022-03-29 22:03:27,525] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 22:03:27,525] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 71.9413s"
+[2022-03-29 22:05:32,143] [INFO@aiohttp.access] 127.0.0.1 "GET / 404 172 in 0.0005s"
+[2022-03-29 22:05:36,864] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot 302 192 in 0.0005s"
+[2022-03-29 22:05:36,945] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 858 in 0.0005s"
+[2022-03-29 22:05:37,897] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 176 in 0.0005s"
+[2022-03-29 22:05:37,963] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0004s"
+[2022-03-29 22:05:38,188] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 387 in 0.0006s"
+[2022-03-29 22:05:38,699] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 1989 in 0.0006s"
+[2022-03-29 22:05:38,724] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 175 in 0.0005s"
+[2022-03-29 22:05:38,731] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0003s"
+[2022-03-29 22:05:38,764] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 2411 in 0.0006s"
+[2022-03-29 22:05:38,765] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 207 in 0.0007s"
+[2022-03-29 22:05:38,766] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 2130 in 0.0013s"
+[2022-03-29 22:05:39,065] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:05:39,129] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:09:06,995] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-bold.4be56996e127ca0cc550.woff2 304 178 in 0.0008s"
+[2022-03-29 22:09:06,996] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-light.35799bdef0942e5364a7.woff2 304 177 in 0.002s"
+[2022-03-29 22:09:19,034] [DEBUG@maubot.client.@giphy_bot:matrix.org] Syncing cancelled
+[2022-03-29 22:09:19,069] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/client/@giphy_bot:matrix.org/clearcache 200 174 in 0.0361s"
+[2022-03-29 22:09:19,070] [DEBUG@maubot.client.@giphy_bot:matrix.org] Starting syncing
+[2022-03-29 22:09:22,145] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/client/@giphy_bot:matrix.org 200 2405 in 0.642s"
+[2022-03-29 22:09:54,353] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:09:54,417] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:10:07,885] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-regular.fb1bb49c43d015b78056.woff2 304 178 in 0.0008s"
+[2022-03-29 22:14:13,620] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:14:13,694] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:18:17,332] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:18:17,395] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:22:15,200] [DEBUG@maubot.instance.giphy] Stopping plugin instance...
+[2022-03-29 22:22:15,235] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/instance/giphy 204 98 in 0.0348s"
+[2022-03-29 22:22:28,402] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 858 in 0.0004s"
+[2022-03-29 22:22:28,489] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 22:22:28,489] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 251.1574s"
+[2022-03-29 22:22:28,601] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/js/main.84245b50.js 200 252 in 0.0016s"
+[2022-03-29 22:22:28,703] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/css/main.53c29762.css 200 236 in 0.0014s"
+[2022-03-29 22:22:29,043] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-regular.87382137e49225456407.woff2 304 177 in 0.0009s"
+[2022-03-29 22:22:29,506] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 176 in 0.0004s"
+[2022-03-29 22:22:29,649] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 387 in 0.0005s"
+[2022-03-29 22:22:29,664] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0003s"
+[2022-03-29 22:22:29,818] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 158 in 0.0006s"
+[2022-03-29 22:22:29,822] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 578 in 0.0005s"
+[2022-03-29 22:22:29,828] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 301 in 0.0004s"
+[2022-03-29 22:22:29,839] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 207 in 0.0004s"
+[2022-03-29 22:22:29,861] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0003s"
+[2022-03-29 22:22:29,864] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 175 in 0.0004s"
+[2022-03-29 22:22:29,875] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-bold.7ce9eb3fe454f54745a4.woff2 304 177 in 0.0007s"
+[2022-03-29 22:22:29,908] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0003s"
+[2022-03-29 22:22:30,008] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-bold.4be56996e127ca0cc550.woff2 304 178 in 0.0009s"
+[2022-03-29 22:22:30,011] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/raleway-light.35799bdef0942e5364a7.woff2 304 177 in 0.0007s"
+[2022-03-29 22:22:30,197] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:22:30,258] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:22:31,756] [DEBUG@maubot.loader.zip] Unloaded plugin casavant.tom.giphy at /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:22:31,757] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 204 98 in 0.0014s"
+[2022-03-29 22:22:36,517] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:22:36,518] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.0094s"
+[2022-03-29 22:22:44,203] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/ 200 858 in 0.0005s"
+[2022-03-29 22:22:44,295] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 22:22:44,295] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 14.0981s"
+[2022-03-29 22:22:44,592] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/paths.json 200 176 in 0.0005s"
+[2022-03-29 22:22:44,761] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/auth/ping 200 387 in 0.0006s"
+[2022-03-29 22:22:44,803] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0004s"
+[2022-03-29 22:22:44,894] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/instances 200 158 in 0.0005s"
+[2022-03-29 22:22:44,896] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/clients 200 578 in 0.0004s"
+[2022-03-29 22:22:44,908] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/plugins 200 301 in 0.0004s"
+[2022-03-29 22:22:44,909] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/client/auth/servers 200 207 in 0.0005s"
+[2022-03-29 22:22:45,005] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/manifest.json 200 13689 in 0.0004s"
+[2022-03-29 22:22:45,006] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/debug/open 200 175 in 0.0005s"
+[2022-03-29 22:22:45,007] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/favicon.png 200 13689 in 0.0006s"
+[2022-03-29 22:22:45,308] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:22:45,371] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:22:52,240] [DEBUG@maubot.instance.giphy] Plugin instance dependencies loaded
+[2022-03-29 22:22:52,246] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:22:52,251] [INFO@maubot.instance.giphy] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 22:22:52,252] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/Giphy 201 1992 in 0.0481s"
+[2022-03-29 22:22:52,757] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/static/media/firacode-regular.fb1bb49c43d015b78056.woff2 304 178 in 0.0009s"
+[2022-03-29 22:23:00,016] [ERROR@maubot.client.@giphy_bot:matrix.org] Failed to run handler
+Traceback (most recent call last):
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/mautrix/client/syncer.py", line 229, in _catch_errors
+    await handler(data)
+  File "/workspaces/threejs/maubot/lib/python3.8/site-packages/maubot/handlers/command.py", line 153, in __call__
+    return await self.__mb_func__(self.__bound_instance__, evt, **call_args)
+TypeError: handler() missing 1 required positional argument: 'search_term'
+[2022-03-29 22:24:12,115] [DEBUG@maubot.instance.giphy] Stopping plugin instance...
+[2022-03-29 22:24:12,148] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/instance/giphy 204 98 in 0.0335s"
+[2022-03-29 22:24:14,252] [DEBUG@maubot.loader.zip] Unloaded plugin casavant.tom.giphy at /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:24:14,253] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 204 98 in 0.0015s"
+[2022-03-29 22:24:18,398] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:24:18,399] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.0091s"
+[2022-03-29 22:24:26,812] [DEBUG@maubot.instance.giphy] Plugin instance dependencies loaded
+[2022-03-29 22:24:26,818] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:24:26,823] [INFO@maubot.instance.giphy] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 22:24:26,823] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/Giphy 201 1992 in 0.0487s"
+[2022-03-29 22:25:21,246] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy 200 1987 in 0.0006s"
+[2022-03-29 22:25:27,843] [DEBUG@maubot.instance.giphy] Stopping plugin instance...
+[2022-03-29 22:25:27,883] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/instance/giphy 204 98 in 0.0407s"
+[2022-03-29 22:25:32,816] [DEBUG@maubot.loader.zip] Unloaded plugin casavant.tom.giphy at /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:25:32,816] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 204 98 in 0.0016s"
+[2022-03-29 22:26:58,404] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:26:58,477] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:27:00,618] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:27:00,619] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.009s"
+[2022-03-29 22:27:08,553] [DEBUG@maubot.instance.giphy] Plugin instance dependencies loaded
+[2022-03-29 22:27:08,559] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:27:08,564] [INFO@maubot.instance.giphy] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 22:27:08,564] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/Giphy 201 1992 in 0.0474s"
+[2022-03-29 22:29:57,989] [DEBUG@maubot.instance.giphy] Stopping plugin instance...
+[2022-03-29 22:29:58,025] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/instance/giphy 204 98 in 0.0365s"
+[2022-03-29 22:30:00,594] [DEBUG@maubot.loader.zip] Unloaded plugin casavant.tom.giphy at /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:30:00,595] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 204 98 in 0.0015s"
+[2022-03-29 22:31:01,976] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:31:01,976] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.0087s"
+[2022-03-29 22:31:04,264] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:31:04,325] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:31:11,042] [DEBUG@maubot.instance.giphy] Plugin instance dependencies loaded
+[2022-03-29 22:31:11,048] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:31:11,053] [INFO@maubot.instance.giphy] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 22:31:11,053] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/Giphy 201 1992 in 0.0478s"
+[2022-03-29 22:33:43,467] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 412 256 in 0.0006s"
+[2022-03-29 22:33:46,847] [DEBUG@maubot.instance.giphy] Stopping plugin instance...
+[2022-03-29 22:33:46,883] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/instance/giphy 204 98 in 0.0361s"
+[2022-03-29 22:33:49,680] [DEBUG@maubot.loader.zip] Unloaded plugin casavant.tom.giphy at /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:33:49,680] [INFO@aiohttp.access] 127.0.0.1 "DELETE /_matrix/maubot/v1/plugin/casavant.tom.giphy 204 98 in 0.0015s"
+[2022-03-29 22:33:54,780] [DEBUG@maubot.loader.zip] Preloaded plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:33:54,780] [INFO@aiohttp.access] 127.0.0.1 "POST /_matrix/maubot/v1/plugins/upload 201 304 in 0.0088s"
+[2022-03-29 22:34:02,915] [DEBUG@maubot.instance.giphy] Plugin instance dependencies loaded
+[2022-03-29 22:34:02,921] [DEBUG@maubot.loader.zip] Loaded and imported plugin casavant.tom.giphy from /workspaces/threejs/maubot/plugins/casavant.tom.giphy-v3.0.1.mbp
+[2022-03-29 22:34:02,926] [INFO@maubot.instance.giphy] Started instance of casavant.tom.giphy v3.0.1 with user @giphy_bot:matrix.org
+[2022-03-29 22:34:02,927] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/Giphy 201 1992 in 0.0456s"
+[2022-03-29 22:35:11,997] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:35:12,058] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:39:13,469] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:39:13,553] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:43:18,925] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:43:18,988] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:47:28,320] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:47:28,387] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:51:35,116] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:51:35,179] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:54:36,529] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy 200 1988 in 0.0386s"
+[2022-03-29 22:55:44,812] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:55:44,874] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 22:57:46,441] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy 200 1988 in 0.0372s"
+[2022-03-29 22:58:19,779] [INFO@aiohttp.access] 127.0.0.1 "PUT /_matrix/maubot/v1/instance/giphy 200 1988 in 0.038s"
+[2022-03-29 22:59:46,819] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 22:59:46,880] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:03:47,850] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:03:47,913] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:07:59,474] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:08:00,803] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:12:03,560] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:12:03,627] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:16:52,725] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:16:52,786] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:21:01,920] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:21:01,982] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:25:14,001] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:25:14,067] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:29:22,052] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 opened
+[2022-03-29 23:29:22,123] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 authenticated
+[2022-03-29 23:30:42,258] [WARNING@mau.db] execute('UPDATE client SET next_batch=$1 WHERE id=$2') took 2.333 seconds
+[2022-03-29 23:32:04,139] [DEBUG@mau.init] Interrupt received, stopping...
+[2022-03-29 23:32:04,141] [DEBUG@maubot.server.websocket] Closing log listener websockets
+[2022-03-29 23:32:04,141] [DEBUG@maubot.server.websocket] Connection from 127.0.0.1 closed
+[2022-03-29 23:32:04,141] [INFO@aiohttp.access] 127.0.0.1 "GET /_matrix/maubot/v1/logs 101 0 in 162.0893s"
+[2022-03-29 23:32:04,141] [DEBUG@maubot.instance.giphy] Stopping plugin instance...
+[2022-03-29 23:32:04,142] [DEBUG@maubot.client.@giphy_bot:matrix.org] Syncing cancelled
+[2022-03-29 23:32:04,142] [DEBUG@mau.init] Stopping server
+[2022-03-29 23:32:04,143] [INFO@mau.init] Everything stopped, shutting down
